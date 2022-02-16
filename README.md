@@ -1,2 +1,2 @@
-# ulugbekhursandov
+# ulug
  github
