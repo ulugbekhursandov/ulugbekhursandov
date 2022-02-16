@@ -1,0 +1,79 @@
+.box4 {
+ 	width: 100vw;
+	height: auto;
+	padding-top: 100px;
+	margin: 0;
+	text-align: center;
+ }
+
+ .p4 {
+ 	padding: 20px;
+	color: greenyellow;
+	text-align: center;
+	position: relative;
+	z-index: 1;
+}
+.p4::after {
+	content: "W";
+	position: absolute;
+	font-size: 120px;
+	left: 46%;
+	right: 50%;
+	color: rgba(225, 225, 225, 0.7);
+	transform: translate(-50%, -42%);
+	z-index: -1;
+}
+ .flex4	{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
+.textes {
+	width: 20%;
+	display: 20px;
+	margin: 20px;
+}
+
+
+
+@media(max-width: 850px){
+	.textes {width: 40%;
+	display: 20px;
+	margin: 20px;
+}
+.box4 {
+	padding-top: 50px;
+	
+}
+.p4::after {
+	content: "W";
+	position: absolute;
+	font-size: 95px;
+	left: 45%;
+	right: 50%;
+	color: rgba(225, 225, 225, 0.7);
+	transform: translate(-50%, -40%);
+	z-index: -1;
+}
+
+
+@media(max-width: 500px){
+	.textes {width: 90%;
+	display: 20px;
+	margin: 20px;
+}   
+.box4 {
+	padding-top: 30px;
+	
+}
+.p4::after {
+	content: "W";
+	position: absolute;
+	font-size: 90px;
+	left: 43%;
+	right: 50%;
+	color: rgba(225, 225, 225, 0.7);
+	transform: translate(-50%, -40%);
+	z-index: -1;
+}
+}

@@ -1,0 +1,74 @@
+.box3 {
+ 	margin: 0;
+ 	padding: 0;
+ }
+.flex3 {
+	justify-content: space-around;
+	background-color: white;
+	display: flex;
+	flex-wrap: wrap;
+
+}
+.quti1 {
+	padding: 50px;
+	width: 50%;
+	color: white;
+	background-color: #303841;
+}
+
+.quti2 {
+	width: 45%;
+}
+.quti3 {
+	width: 50%;
+}
+.quti4 {
+	width: 50%;
+	padding: 50px;
+	width: 50%;
+}
+
+
+
+@media(max-width: 1100px){
+	.quti2 {
+	width: 50%;
+}
+	.quti3 {
+	width: 50%;
+}
+.quti1 {
+	padding: 30px;
+	width: 50%;
+}
+.quti4 {
+	padding: 30px;
+	width: 50%;
+}
+
+}
+
+
+
+@media(max-width: 1000px){
+.quti1 {
+	text-align: center
+	padding: 50px;
+	width: 100%;
+}
+.quti4 {
+	text-align: center
+	padding: 50px;
+	width: 100%;
+}
+
+.quti3 {
+	height: auto;
+	width: 100% ;
+}
+.quti2 {
+	order: -1;
+	width: 100%;
+	justify-content: space-around;
+}
+}

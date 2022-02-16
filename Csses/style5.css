@@ -1,0 +1,38 @@
+.box5 {
+ 	width: 100vw;
+	height: 100vh;
+	background-image: url("../Images/vedeos.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-top: 100px;
+	margin: 0;
+	color: greenyellow;
+	text-align: center;
+	background-repeat: no-repeat;
+	
+ }
+ .vedeo-darsliklar {
+ 	font-size: 50px;
+ 	letter-spacing: 5px;
+ 	padding-top: 0;
+ 	padding-bottom: 50px;
+ }
+.flex5 {
+	justify-content: space-around;
+	display: flex;
+	flex-wrap: wrap;
+}
+.video {
+	width: 100%/3;
+
+}
+
+
+@media(max-width: 850px){
+	 .vedeo-darsliklar {
+ 	font-size: 40px;
+ 	letter-spacing: 4px;
+ 	padding-top: 0;
+ 	padding-bottom: 30px;
+ }
+}

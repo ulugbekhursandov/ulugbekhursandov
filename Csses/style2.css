@@ -1,0 +1,54 @@
+
+.box2 {
+	width: 100vw;
+	height: auto;
+	background-image: url("../Images/hakker.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-top: 100px;
+	margin: 0;
+	color: greenyellow;
+	text-align: center;
+	background-repeat: no-repeat;
+	
+}
+.agency {
+	color: greenyellow;
+	text-align: center;
+	position: relative;
+	z-index: 1;
+}
+.agency::after {
+	content: "CS";
+	position: absolute;
+	font-size: 120px;
+	left: 50%;
+	right: 50%;
+	color: rgba(225, 225, 225, 0.7);
+	transform: translate(-50%, -50%);
+	z-index: -1;
+}
+.flex2	{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
+.searching {width: 20%;
+	display: 20px;
+	margin: 20px;
+}
+
+
+
+
+
+@media(max-width: 670px){
+	.searching {width: 40%;
+	display: 20px;
+	margin: 20px;
+}
+.box2 {
+	padding-top: 50px;
+	
+}
+}
